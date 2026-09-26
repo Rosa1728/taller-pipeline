@@ -22,5 +22,5 @@ jobs:
           distribution: temurin
           java-version: '21'
 
-      - name: Ejecutar pruebas
-        run: ./gradlew test
+      - name: Compilar y ejecutar pruebas
+        run: ./gradlew build
